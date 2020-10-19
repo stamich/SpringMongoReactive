@@ -33,6 +33,9 @@ dependencies {
     // https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
     compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '3.0.0'
 
+    // https://mvnrepository.com/artifact/org.spockframework/spock-core
+    testCompile group: 'org.spockframework', name: 'spock-core', version: '2.0-M3-groovy-3.0'
+
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
